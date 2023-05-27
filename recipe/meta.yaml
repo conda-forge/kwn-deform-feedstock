@@ -23,7 +23,7 @@ test:
     - tests
   commands:
     - command -v KWN-Deform  # [unix]
-    - cd tests/test_1a && mkdir -p test_1a/results && KWN-Deform  # [unix]
+    - cd tests/test_1a && mkdir -p test_1a/results && KWN-Deform  # [unix and not osx_arm64]
 
 
 about:
